@@ -12,13 +12,18 @@ The purpose of this study is to engage in better understanding of our society us
 
 // methodologies 
 -> **frequency analysis
--> kNN (in genre classification) 
+
+-> kNN (in genre classification)
+
 -> kMeans, using the silhouette method
 
 // data structures 
 -> Heap
+
 -> Huffman Tree
+
 -> Tries
+
 -> Sorting Algorithms (not yet specified)
 
 
