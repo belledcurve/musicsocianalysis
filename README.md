@@ -5,36 +5,25 @@ TITLE: Analysis of Society through Popular Music from the 2008 to 2023
 
 
 
-Abstract: 
+# Abstract: 
 
-The purpose of this study is to engage in better understanding of our society using repeatedly arising themes in popular music throughout time periods. 
+The purpose of this project is to engage in better understanding of our society using repeatedly arising themes in popular music throughout time periods. 
 
+I believe that popular music is a great lens in viewing society at a given time. The musics we listen to are largely representative of our feelings, emotions, and attitude towards the outside world. 
+Hence, the collective sum of tracks that were popular throughout the society we live in can be said to represent the feelings, emotions, and attitude towards the outside world of our society. 
 
-// methodologies 
--> **frequency analysis
+For this project, I take the Bag of Words assumption to use, and used a Document Term Matrix (DTM) to arrange the lyrics. I used the *Spotify API* (1) and *Genius Lyrics API* (2) to gain access to Spotify's Top Hits playlist from 2008 to 2023 (1) and its lyrics (2). 
+Then, I conducted a test of cosine similarity between the documents within the corpus (playlist) to prove the assumption that a single year's playlist is representative of a certain trend in society.
 
--> kNN (in genre classification)
+The effect of COVID was one of the most noticeable trends throughout the project. We became more reminiscent of the past, and became more self-acknowledging. Also, a trend in financial crises linked with the keyword 'money' was also conspicous. 
 
--> kMeans, using the silhouette method
+A shortcoming to this project is that it fails to focus on one singular trend, and should be addressed through a developed project that will succeed this project.
 
-// data structures 
--> Heap
-
--> Huffman Tree
-
--> Tries
-
--> Sorting Algorithms (not yet specified)
+I expect this project to be extended to popular music scenes of other countries and/or regions, and prove to be an efficient way in understanding society with a nuanced objective in place.
 
 
+# Methodologies
 
-
-
-/**
-We believe that popular music is a great lens in viewing society at a given time, and expect this research to be extended to popular music scenes of other countries and/or regions. The reason this project focuses on Korean popular music and its society in specific, is because of the unique closure of the Korean society where most of its components of society are monoethnic (Koreans), and the noticeable economic/societal growth in the South Korean society throughout the late 20th century and early 21th century, which make conspicuous the differences in repeated themes in popular music throughout the given time periods.
-*/
-
-edit -> will use the spotify API and analyze Top Hits. 
 
 
 
